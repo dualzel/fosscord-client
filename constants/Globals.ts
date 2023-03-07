@@ -13,12 +13,12 @@ interface RouteSettings {
 
 export const DefaultRouteSettings: RouteSettings = {
   api: `https://fosscord-server.visibleillusion.repl.co/api`,
-  cdn: "https://cdn.fosscord-server.visibleillusion.repl.co",
+  cdn: "https://cdn.staging.fosscord.com",
   invite: "https://fosscord-server.visibleillusion.repl.co/invite",
   template: "https://fosscord-server.visibleillusion.repl.co/template",
   gift: "https://fosscord-server.visibleillusion.repl.co/gift",
   scheduledEvent: "https://fosscord-server.visibleillusion.repl.co/events",
-  gateway: "wss://gateway.fosscord-server.visibleillusion.repl.co",
+  gateway: "wss://gateway.staging.fosscord.com",
 };
 
 export const Globals: {
